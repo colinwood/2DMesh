@@ -6,16 +6,10 @@
 #Basic rectangle class used for creating a 2d mesh.
 class Rectangle
 	
-	vertex_1 = []
-	vertex_2 = []
-	vertex_3 = []
-	vertex_4 = []
+	vertex_1, vertex_2, vertex_3,vertex_4 = []
 	
-	attr_accessor :vertex_1, :vertex_2
- 
-	attr_accessor :vertex_3
-	attr_accessor :vertex_4
-	attr_accessor :vertices
+	
+	attr_accessor :vertex_1, :vertex_2, :vertex_3, :vertex_4, :vertices
 	
 	def initialize(vertex_1, vertex_2, vertex_3, vertex_4)
 		@vertex_1 = vertex_1
